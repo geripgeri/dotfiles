@@ -1,0 +1,26 @@
+! remove Caps Lock
+clear lock
+! Map Caps Lock as Mode_switch
+keycode 66 = Mode_switch Mode_switch Mode_switch Mode_switch
+keycode 108 = Mode_switch Mode_switch Mode_switch Mode_switch
+
+! Add hungarian keys
+keycode  19 = 0 parenright odiaeresis Odiaeresis odiaeresis Odiaeresis
+keycode  20 = minus underscore udiaeresis Udiaeresis udiaeresis Udiaeresis
+keycode  21 = equal plus oacute Oacute oacute Oacute
+keycode  34 = bracketleft braceleft odoubleacute Odoubleacute odoubleacute Odoubleacute
+keycode  35 = bracketright braceright uacute Uacute uacute Uacute
+keycode  47 = semicolon colon eacute Eacute eacute Eacute
+keycode  48 = apostrophe quotedbl aacute Aacute aacute Aacute
+keycode  51 = backslash bar udoubleacute Udoubleacute udoubleacute Udoubleacute
+keycode  94 = iacute Iacute
+
+! vim like navigation
+keysym h = h H Left NoSymbol NoSymbol NoSymbol
+keysym j = j J Down NoSymbol NoSymbol NoSymbol
+keysym k = k K Up NoSymbol NoSymbol NoSymbol
+keysym l = l L Right NoSymbol lstroke Lstroke
+
+! swich y with z forever
+keycode  52 = z Z iacute Iacute iacute Iacute
+keycode  29 = y Y z Z greater less
