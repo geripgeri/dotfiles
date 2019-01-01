@@ -48,6 +48,7 @@
 (setq multi-term-program "/bin/zsh")
 (setq vc-follow-symlinks t)
 (setq read-file-name-completion-ignore-case t)
+(setq tramp-copy-size-limit nil)
 
 (add-hook 'css-mode-hook 'xah-css-mode)
 (add-hook 'html-mode-hook 'xah-css-mode)
