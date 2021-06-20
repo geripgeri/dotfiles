@@ -12,6 +12,8 @@ source ~/.config/nvim/neomake.vim
 source ~/.config/nvim/telescope.vim
 " LSP - Language Server Protocol
 lua require('lsp')
+" Autocomplete
+source ~/.config/nvim/autocomplete.vim
 
 syntax on
 set tabstop=4 softtabstop=4

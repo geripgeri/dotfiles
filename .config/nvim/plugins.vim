@@ -41,6 +41,9 @@ Plug 'theprimeagen/vim-be-good'
 Plug 'neovim/nvim-lspconfig'
 Plug 'prabirshrestha/vim-lsp'
 
+" Autocomplete
+Plug 'hrsh7th/nvim-compe'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
