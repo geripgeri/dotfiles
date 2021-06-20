@@ -21,6 +21,10 @@ Plug 'gruvbox-community/gruvbox'
 
 " Statusbar
 Plug 'hoob3rt/lualine.nvim'
+
+" Neomake
+Plug 'neomake/neomake'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
