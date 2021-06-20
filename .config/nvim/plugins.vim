@@ -44,6 +44,12 @@ Plug 'prabirshrestha/vim-lsp'
 " Autocomplete
 Plug 'hrsh7th/nvim-compe'
 
+" Terraform related
+Plug 'hashivim/vim-terraform'
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
 call plug#end()
 
 " Automatically install missing plugins on startup

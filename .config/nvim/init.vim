@@ -14,6 +14,8 @@ source ~/.config/nvim/telescope.vim
 lua require('lsp')
 " Autocomplete
 source ~/.config/nvim/autocomplete.vim
+" Terraform
+source ~/.config/nvim/terraform.vim
 
 syntax on
 set tabstop=4 softtabstop=4
