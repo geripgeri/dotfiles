@@ -1,5 +1,7 @@
 " Custom key bindings
 source ~/.config/nvim/keybindings.vim
+" Plugins
+source ~/.config/nvim/plugins.vim
 
 syntax on
 set tabstop=4 softtabstop=4
