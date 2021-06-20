@@ -10,6 +10,8 @@ call plug#begin('~/.local/share/nvim/site/autoload/plugged')
 
 " Git integration
 Plug 'tpope/vim-fugitive'
+" Git status in the sign column
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Automatically install missing plugins on startup
