@@ -35,6 +35,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
+Plug 'theprimeagen/vim-be-good'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
