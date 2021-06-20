@@ -10,6 +10,8 @@ lua require('statusbar')
 source ~/.config/nvim/neomake.vim
 " Telescope
 source ~/.config/nvim/telescope.vim
+" LSP - Language Server Protocol
+lua require('lsp')
 
 syntax on
 set tabstop=4 softtabstop=4

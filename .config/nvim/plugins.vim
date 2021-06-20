@@ -37,6 +37,10 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 Plug 'theprimeagen/vim-be-good'
 
+" LSP
+Plug 'neovim/nvim-lspconfig'
+Plug 'prabirshrestha/vim-lsp'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
