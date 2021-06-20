@@ -50,6 +50,9 @@ Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
+" Ansible
+Plug 'pearofducks/ansible-vim'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
