@@ -15,6 +15,9 @@ Plug 'airblade/vim-gitgutter'
 
 " Undotree
 Plug 'mbbill/undotree'
+
+" The one and only gruvbox
+Plug 'gruvbox-community/gruvbox'
 call plug#end()
 
 " Automatically install missing plugins on startup
