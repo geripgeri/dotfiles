@@ -53,6 +53,9 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 " Ansible
 Plug 'pearofducks/ansible-vim'
 
+" Cheat.sh
+Plug 'dbeniamine/cheat.sh-vim'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
