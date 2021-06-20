@@ -17,6 +17,8 @@ set ignorecase
 set smartcase
 set noswapfile
 set nobackup
+set undodir=~/.config/nvim/undodir
+set undofile
 set termguicolors
 " Start scrolling the screen when the cursor is 8 lines away.
 set scrolloff=8
