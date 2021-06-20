@@ -18,6 +18,9 @@ Plug 'mbbill/undotree'
 
 " The one and only gruvbox
 Plug 'gruvbox-community/gruvbox'
+
+" Statusbar
+Plug 'hoob3rt/lualine.nvim'
 call plug#end()
 
 " Automatically install missing plugins on startup

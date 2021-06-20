@@ -4,6 +4,8 @@ source ~/.config/nvim/keybindings.vim
 source ~/.config/nvim/plugins.vim
 " Git
 source ~/.config/nvim/git.vim
+" Statusbar
+lua require('statusbar')
 
 syntax on
 set tabstop=4 softtabstop=4
