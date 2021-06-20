@@ -8,6 +8,8 @@ source ~/.config/nvim/git.vim
 lua require('statusbar')
 " Neomake
 source ~/.config/nvim/neomake.vim
+" Telescope
+source ~/.config/nvim/telescope.vim
 
 syntax on
 set tabstop=4 softtabstop=4
