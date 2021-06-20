@@ -8,6 +8,8 @@ endif
 " Plugins
 call plug#begin('~/.local/share/nvim/site/autoload/plugged')
 
+" Git integration
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Automatically install missing plugins on startup

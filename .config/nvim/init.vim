@@ -2,6 +2,8 @@
 source ~/.config/nvim/keybindings.vim
 " Plugins
 source ~/.config/nvim/plugins.vim
+" Git
+source ~/.config/nvim/git.vim
 
 syntax on
 set tabstop=4 softtabstop=4
