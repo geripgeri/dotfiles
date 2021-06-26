@@ -62,6 +62,9 @@ let g:netrw_winsize = 25
 set hls
 let @/ = ""
 
+" NERDTree show hidden files
+let NERDTreeShowHidden=1
+
 " Automatically create the parent folder of the file (recursively)
 augroup Mkdir
   autocmd!

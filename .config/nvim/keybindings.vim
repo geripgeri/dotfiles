@@ -49,6 +49,8 @@ nnoremap <leader>s :set spell!<cr>
 nnoremap <C-n> :NERDTreeToggle<CR>
 " Find current file
 nnoremap <C-f> :NERDTreeFind<CR>
+" Open/Close directories with Tab 
+autocmd FileType nerdtree nmap <buffer> <Tab> o
 " Auto close NERDTree if it is the only left
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Bookmark file/folder
