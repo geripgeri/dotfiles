@@ -18,6 +18,9 @@ source ~/.config/nvim/autocomplete.vim
 source ~/.config/nvim/terraform.vim
 
 syntax on
+
+" Set syntax for Jenkinsfile as Groovy
+au BufNewFile,BufRead Jenkinsfile setf groovy
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
