@@ -4,6 +4,9 @@ let mapleader = " "
 " Save current buffer
 nnoremap <leader>w :w<cr>
 
+" Save current buffer as sudo
+nnoremap <leader>W :w !sudo tee %<cr>
+
 " Replace the word under cursor
 nnoremap <leader>* :%s/\<<c-r><c-w>\>//g<left><left>
 
@@ -11,11 +14,12 @@ nnoremap <leader>* :%s/\<<c-r><c-w>\>//g<left><left>
 nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
 
 " Autoclose tags
-inoremap ( ()<Left>
-inoremap { {}<Left>
-inoremap [ []<Left>
-inoremap < <><Left>
-inoremap " ""<Left>
+" Temporarily disabled, most probably I'll use tpope' vim-surround plugin.
+"inoremap ( ()<Left>
+"inoremap { {}<Left>
+"inoremap [ []<Left>
+"inoremap < <><Left>
+"inoremap " ""<Left>
 
 " Move lines around
 nnoremap <leader>j :m+<cr>==
@@ -38,6 +42,8 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+y$
 
+" Copy the whole buffer
+nnoremap <leader>YY gg"+yG<C-o>
 " Press return to temporarily get out of the highlighted search.
 nnoremap <CR> :nohlsearch<CR><CR>
 
@@ -46,6 +52,7 @@ nnoremap <leader>s :set spell!<cr>
 
 " NERDTree
 " Toggle
+"nnoremap <C-n> :NERDTreeToggle %<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 " Find current file
 nnoremap <C-f> :NERDTreeFind<CR>
