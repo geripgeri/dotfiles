@@ -58,11 +58,8 @@ Plug 'pearofducks/ansible-vim'
 " Cheat.sh
 Plug 'dbeniamine/cheat.sh-vim'
 
+" Todo Comments
+Plug 'folke/trouble.nvim'
+Plug 'folke/todo-comments.nvim'
 call plug#end()
 
-" Automatically install missing plugins on startup
-autocmd VimEnter *
-  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q
-"Plug 'nvim-lua/completion-nvim'
-  \| endif

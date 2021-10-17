@@ -16,6 +16,8 @@ lua require('lsp')
 source ~/.config/nvim/autocomplete.vim
 " Terraform
 source ~/.config/nvim/terraform.vim
+" Todo Comments
+lua require('todo')
 
 syntax on
 
