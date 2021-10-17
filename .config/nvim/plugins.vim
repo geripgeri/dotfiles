@@ -15,6 +15,7 @@ Plug 'airblade/vim-gitgutter'
 
 " vim-surround
 Plug 'tpope/vim-surround'
+
 " Undotree
 Plug 'mbbill/undotree'
 
@@ -32,6 +33,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'nvim-treesitter/nvim-treesitter'
 
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'
