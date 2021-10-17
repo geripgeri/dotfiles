@@ -62,5 +62,7 @@ Plug 'dbeniamine/cheat.sh-vim'
 " Todo Comments
 Plug 'folke/trouble.nvim'
 Plug 'folke/todo-comments.nvim'
-call plug#end()
 
+" Startup
+Plug 'mhinz/vim-startify'
+call plug#end()
