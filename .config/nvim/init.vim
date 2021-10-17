@@ -27,6 +27,7 @@ syntax on
 
 " Set syntax for Jenkinsfile as Groovy
 au BufNewFile,BufRead Jenkinsfile setf groovy
+
 set encoding=utf8
 set guifont=Symbols\ Nerd\ Font\ 18
 set tabstop=4 softtabstop=4
@@ -64,6 +65,9 @@ if exists('+termguicolors')
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 endif
 let g:gruvbox_invert_selection='0'
+
+" Set zsh as default shell
+let &shell='/bin/zsh -i'
 
 let g:netrw_browse_split = 2
 let g:netrw_banner = 0
