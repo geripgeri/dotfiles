@@ -29,3 +29,6 @@ require'lspconfig'.sumneko_lua.setup {
   cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"};
   on_attach = on_attach
 }
+
+-- Ansible
+require'lspconfig'.ansiblels.setup{ on_attach = on_attach }
