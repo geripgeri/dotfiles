@@ -6,6 +6,8 @@ source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/git.vim
 " Web-dev-icons
 lua require('web-devicons')
+" Nvim-tree
+lua require('tree')
 " Statusbar
 lua require('statusbar')
 " Neomake
@@ -70,9 +72,6 @@ let g:netrw_winsize = 25
 " Higlight search but not when sourcing .vimrc
 set hls
 let @/ = ""
-
-" NERDTree show hidden files
-let NERDTreeShowHidden=1
 
 " Automatically create the parent folder of the file (recursively)
 augroup Mkdir
