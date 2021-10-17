@@ -4,6 +4,8 @@ source ~/.config/nvim/keybindings.vim
 source ~/.config/nvim/plugins.vim
 " Git
 source ~/.config/nvim/git.vim
+" Web-dev-icons
+lua require('web-devicons')
 " Statusbar
 lua require('statusbar')
 " Neomake
