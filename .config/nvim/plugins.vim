@@ -11,7 +11,7 @@ call plug#begin('~/.local/share/nvim/site/autoload/plugged')
 " Git integration
 Plug 'tpope/vim-fugitive'
 " Git status in the sign column
-Plug 'airblade/vim-gitgutter'
+Plug 'lewis6991/gitsigns.nvim'
 
 " vim-surround
 Plug 'tpope/vim-surround'

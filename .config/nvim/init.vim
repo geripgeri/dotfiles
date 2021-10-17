@@ -22,6 +22,8 @@ source ~/.config/nvim/autocomplete.vim
 source ~/.config/nvim/terraform.vim
 " Todo Comments
 lua require('todo')
+" Git signs
+lua require('sings')
 
 syntax on
 
