@@ -1,4 +1,12 @@
 # -*- mode: gitignore; -*-
+
+# Personal files
+*personal*
+
+# Work related files
+*work*
+
+# Emacs files
 *~
 \#*\#
 /.emacs.desktop
@@ -52,4 +60,3 @@ flycheck_*.el
 
 # nvim netrwhist
 .config/nvim/.netrwhist
-
