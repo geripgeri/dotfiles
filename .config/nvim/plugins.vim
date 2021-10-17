@@ -13,6 +13,8 @@ Plug 'tpope/vim-fugitive'
 " Git status in the sign column
 Plug 'airblade/vim-gitgutter'
 
+" vim-surround
+Plug 'tpope/vim-surround'
 " Undotree
 Plug 'mbbill/undotree'
 
