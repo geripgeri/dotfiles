@@ -1,6 +1,6 @@
 # Open nvim and shell inside tmux session.
 function dev() {
-    session=$(basename $(pwd))
+    session=$(basename $(pwd | tr . _))
     tmux new-session -d -s $session
     tmux rename-window -t 0 "nvim"
     tmux send-keys -t "nvim" "nvim" C-m
@@ -13,11 +13,11 @@ function ssh_rm_id() {
 }
 
 function f () {
-    grep -RI --color=always --exclude-dir={${excluded_dirs}} "$1" . | sort
+    eval grep -RI --color=always "${excluded_dirs}" "${1}" . | sort
 }
 
 function find_large_files() {
-    find $1 -xdev -type f -size +$2M -exec du -h {} \; | sort -n
+    find $1 -xdev -type f -size +${2}M -exec du -h {} \; | sort -n
 }
 
 function psgrep() {
