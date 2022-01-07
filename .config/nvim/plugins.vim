@@ -65,4 +65,8 @@ Plug 'folke/todo-comments.nvim'
 
 " Startup
 Plug 'mhinz/vim-startify'
+
+" Tetris
+Plug 'alec-gibson/nvim-tetris'
+
 call plug#end()
