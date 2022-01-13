@@ -45,7 +45,23 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'prabirshrestha/vim-lsp'
 
 " Autocomplete
-Plug 'hrsh7th/nvim-compe'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-calc'
+Plug 'hrsh7th/cmp-emoji'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'onsails/lspkind-nvim'
+Plug 'tamago324/cmp-zsh'
+Plug 'f3fora/cmp-spell'
+Plug 'saadparwaiz1/cmp_luasnip'
+
+" Lua Snip
+Plug 'L3MON4D3/LuaSnip'
+
+" Comparators
+Plug 'lukas-reineke/cmp-under-comparator'
 
 " Terraform related
 Plug 'hashivim/vim-terraform'
