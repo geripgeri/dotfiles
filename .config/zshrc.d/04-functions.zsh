@@ -1,5 +1,9 @@
-# Open nvim and shell inside tmux session.
 function dev() {
+    nvim -c ":e term://zsh | stopinsert | file Shell | 0tabnew $1"
+}
+
+# Open nvim and shell inside tmux session.
+function dev_old() {
     session=$(basename $(pwd | tr . _))
     tmux new-session -d -s $session
     tmux rename-window -t 0 "nvim"
