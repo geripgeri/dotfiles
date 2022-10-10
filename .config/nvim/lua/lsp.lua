@@ -27,6 +27,14 @@ local sumneko_binary = "/usr/bin/lua-language-server"
 
 require'lspconfig'.sumneko_lua.setup {
   cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"};
+  settings = {
+    Lua = {
+      diagnostics = {
+        -- Get the language server to recognize the `vim` global
+        globals = {'vim'},
+      },
+    },
+  },
   on_attach = on_attach
 }
 
