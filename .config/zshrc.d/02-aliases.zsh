@@ -18,6 +18,6 @@ alias git_rm_merged_branches="git branch --merged | egrep -v '(^\*|master|dev)' 
 
 alias vac='nvim ~/.config/awesome/rc.lua' 
 alias vzsh='nvim ~/.zshrc'
-alias vv='nvim ~/.config/nvim/init.vim'
+alias vv='cd ~/.config/nvim && nvim init.lua'
 alias cdd='cd ~/workspace/Personal/dotfiles'
 alias cde='cd ~/workspace/Personal/ESPHome-configs'
