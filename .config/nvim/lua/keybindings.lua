@@ -41,7 +41,6 @@ vim.opt.clipboard = "unnamedplus"
 -- vim.api.nvim_set_keymap("n", "<Leader>Y", "\"+y$", { noremap = true, silent = true })
 
 -- Keep the copy register while pasting
--- TODO fix me!
 vim.api.nvim_set_keymap("x", "<Leader>p", "\"_dP", { noremap = true, silent = true })
 
 -- Copy the whole buffer
@@ -80,3 +79,15 @@ vim.api.nvim_create_autocmd("TermOpen", {
     pattern = "*",
     command = "startinsert",
 })
+
+-- Butify jsons
+vim.api.nvim_set_keymap("n", "<Leader>jq", ":%!jq<CR>", { noremap = true, silent = true })
+
+-- Minify jsons
+vim.api.nvim_set_keymap("n", "<Leader>Jq", ":%!jq -c<CR>", { noremap = true, silent = true })
+
+-- Enable spell checking for mail filetype
+vim.api.nvim_command('autocmd FileType mail setlocal spell')
+
+-- Toggle Bionic reading
+vim.api.nvim_set_keymap("n", "<Leader>b", ":FSToggle<CR>", { noremap = true, silent = false })

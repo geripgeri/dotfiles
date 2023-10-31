@@ -50,13 +50,13 @@ vim.api.nvim_create_autocmd("FileType", {
     command = "nnoremap <buffer> <silent> cn :<C-U>Git commit --no-verify<CR>",
 })
 
--- Git amend commit with no-verify
+-- Git amend commit with no-verify no-edit
 vim.api.nvim_create_autocmd("FileType", {
     group = "fugitive_mappings",
     pattern = "fugitive",
-    command = "nnoremap <buffer> <silent> cn :<C-U>Git commit --no-verify<CR>",
+    command = "nnoremap <buffer> <silent> can :<C-U>Git commit --amend --no-verify --no-edit<CR>",
 })
-
+--
 -- Git push current branch to origin
 vim.api.nvim_create_autocmd("FileType", {
     group = "fugitive_mappings",

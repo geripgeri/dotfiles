@@ -34,6 +34,10 @@ require("ansible")
 require("jenkins")
 -- Machine translate
 require("translate")
+-- Markdown preview
+require("markdownpreview")
+-- Work
+require("work")
 
 vim.cmd("syntax on")
 vim.cmd("set termguicolors")
