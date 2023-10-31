@@ -100,6 +100,9 @@ return require('packer').startup(function(use)
   -- Machine translation
   use "potamides/pantran.nvim"
 
+  -- Markdown preview
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
   -- Check and install packer
   if packer_bootstrap then
       require('packer').sync()
