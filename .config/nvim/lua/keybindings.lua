@@ -85,3 +85,6 @@ vim.api.nvim_set_keymap("n", "<Leader>jq", ":%!jq<CR>", { noremap = true, silent
 
 -- Minify jsons
 vim.api.nvim_set_keymap("n", "<Leader>Jq", ":%!jq -c<CR>", { noremap = true, silent = true })
+
+-- Enable spell checking for mail filetype
+vim.api.nvim_command('autocmd FileType mail setlocal spell')
