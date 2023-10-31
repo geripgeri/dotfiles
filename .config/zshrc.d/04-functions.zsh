@@ -1,5 +1,7 @@
 function dev() {
-    nvim -c ":e term://zsh | stopinsert | file Shell | 0tabnew $1"
+    # Set the title to show `dev pwd`.
+    echo -n -e "\033]0;${0} $(basename $PWD)\007"
+    nvim -c ":e term://zsh | stopinsert | file Shell | 0tabnew $1" # | NvimTreeOpen | Startup display"
 }
 
 # Open nvim and shell inside tmux session.
