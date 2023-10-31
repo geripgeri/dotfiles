@@ -88,3 +88,6 @@ vim.api.nvim_set_keymap("n", "<Leader>Jq", ":%!jq -c<CR>", { noremap = true, sil
 
 -- Enable spell checking for mail filetype
 vim.api.nvim_command('autocmd FileType mail setlocal spell')
+
+-- Toggle Bionic reading
+vim.api.nvim_set_keymap("n", "<Leader>b", ":FSToggle<CR>", { noremap = true, silent = false })
